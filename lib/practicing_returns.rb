@@ -1,5 +1,5 @@
 require 'pry'
-
+yield(Array[i])
 def hello(array)
   i = 0
   while i < array.length

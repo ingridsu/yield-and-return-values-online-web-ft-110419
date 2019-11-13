@@ -1,8 +1,10 @@
 require 'pry'
-
+yield(Array[i])
 def hello(array)
   i = 0
+  collection= []
   while i < array.length
+  collection<<
     yield(array[i])
     i += 1
   end
